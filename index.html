@@ -225,25 +225,17 @@
     }
     .speaker-card:hover { box-shadow: 0 6px 20px rgba(13,47,94,.12); transform: translateY(-2px); }
     .speaker-avatar {
-      width: 64px;
-      height: 64px;
-      border-radius: 50%;
-      background: var(--blue-mid);
-      color: var(--white);
-      font-weight: 700;
-      font-size: 1.1rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      width: 80px;
       flex-shrink: 0;
-      overflow: hidden;
-      border: 2px solid var(--border);
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      background: transparent;
     }
     .speaker-avatar img {
       width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center top;
+      height: auto;
+      display: block;
     }
     .speaker-info .name { font-weight: 700; font-size: .96rem; color: var(--blue-dark); }
     .speaker-info .role { font-size: .83rem; color: var(--muted); line-height: 1.4; margin-top: .2rem; }
